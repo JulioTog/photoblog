@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('pages.welcome');
 });
+//Route::get('about', PageController.about){
+//  return view();
+//}
