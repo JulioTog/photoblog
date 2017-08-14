@@ -1,0 +1,57 @@
+body,html{
+  color: #666;
+  height: 100%;
+
+}
+.pimg1,.pimg2,.pimg3{
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+.pimg1{
+  background-image: url('/img/agua.jpg');
+  min-height: 100%;
+
+
+
+}
+.pimg2{
+  background-image: url('/img/cama.jpg');
+  min-height: 400px;
+}
+.pimg3{
+  background-image: url('/img/luz.jpg');
+  min-height: 400px;
+}
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+}
+.ptext{
+  position:absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ptext .border{
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+@media (max-width:568px) {
+  .pimg1, .pimg2, .pimg3{
+    background-attachment: scroll;
+  }
+}
