@@ -2,12 +2,18 @@
 
 @section('content')
 
-    <div class="pimg1">
-      <div class="ptext">
-        <span class="border">Tri-Podes</span>
+  <div id="myCarousel"class="pimg1 carousel  slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+        <div class="item active carousel-1" style="background-image:url(/img/cama.jpg)"></div>
+        <div class="item carousel-2" style="background-image:url(/img/agua.jpg)"></div>
+        <div class="item carousel-3" style="background-image:url(/img/luz.jpg)"></div>
       </div>
-    </div>
-    <section class="section section-light">
+     <div class="ptext">
+       <span class="border">Tri-Podes</span>
+     </div>
+
+   </div>
+    <section class="section section-dark">
       <h2>About Us</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea molestias debitis ipsam aliquid nulla in nesciunt vel nisi nihil similique saepe, nam om
         nis magnam necessitatibus voluptatum veritatis! Non quae optio fuga provident magni neque similique, qui nihil laborum sapiente minus ex itaque qu
@@ -19,7 +25,7 @@
     <div class="pimg2">
 
     </div>
-    <section class="section section-dark">
+    <section class="section section-light">
       <h2>About Us</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea molestias debitis ipsam aliquid nulla in nesciunt vel nisi nihil similique saepe, nam om
         nis magnam necessitatibus voluptatum veritatis! Non quae optio fuga provident magni neque similique, qui nihil laborum sapiente minus ex itaque qu
