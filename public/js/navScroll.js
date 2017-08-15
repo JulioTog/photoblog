@@ -22,8 +22,8 @@
   $('#myCarousel').carousel({
   pause: 'none'
 
-})
+});
 $('#myCarousel').carousel({
 interval:500
 
-})
+});

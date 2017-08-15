@@ -98,3 +98,13 @@ height: 100%;
        transform: translate3d(0, 0, 0);
     }
 }
+.btn-social-icon{
+  font-size: 2.5em;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   padding:inherit;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+.fa{
+  margin-top: 20%;
+}

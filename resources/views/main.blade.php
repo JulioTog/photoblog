@@ -9,6 +9,8 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -32,14 +34,16 @@
       <a class="navbar-brand" href="#">Tri-Podes</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">AboutUs <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Muestra</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
+
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Gallery</a></li>
+
       </ul>
 
     </div><!-- /.navbar-collapse -->
