@@ -27,3 +27,4 @@ $('#myCarousel').carousel({
 interval:500
 
 });
+$('body').scrollspy({ target: '#navbar-example' })

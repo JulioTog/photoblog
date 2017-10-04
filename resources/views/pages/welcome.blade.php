@@ -14,7 +14,7 @@
      </div>
 
    </div>
-    <section class="section section-dark">
+    <section class="section section-dark" id="about">
       <h2>About Us</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea molestias debitis ipsam aliquid nulla in nesciunt vel nisi nihil similique saepe, nam om
         nis magnam necessitatibus voluptatum veritatis! Non quae optio fuga provident magni neque similique, qui nihil laborum sapiente minus ex itaque qu
@@ -26,7 +26,7 @@
     <div class="pimg2">
 
     </div>
-    <section class="section section-light">
+    <section class="section section-light" id="muestra">
       <h2>Muestra</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea molestias debitis ipsam aliquid nulla in nesciunt vel nisi nihil similique saepe, nam om
         nis magnam necessitatibus voluptatum veritatis! Non quae optio fuga provident magni neque similique, qui nihil laborum sapiente minus ex itaque qu
@@ -38,7 +38,7 @@
     <div class="pimg3">
 
     </div>
-    <section class="section section-dark">
+    <section class="section section-dark" id="contact">
       <h2>Contacto</h2>
       <a target="_blank"class="btn btn-social-icon btn-twitter" href="http://twitter.com">
       <span class="fa fa-twitter fa-5x"></span></a>

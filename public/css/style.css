@@ -1,6 +1,7 @@
 body,html{
   color: #666;
   height: 100%;
+   position: relative;
 
 }
 .pimg2,.pimg3{
