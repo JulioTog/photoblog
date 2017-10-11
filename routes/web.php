@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.welcome');
-});
+Route::get('/', 'PagesController@getIndex');
+
+Route::get('gallery', 'PagesController@getGallery');
+
 //Route::get('about', PageController.about){
 //  return view();
 //}

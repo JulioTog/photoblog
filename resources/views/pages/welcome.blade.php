@@ -40,6 +40,22 @@
     </div>
     <section class="section section-dark" id="contact">
       <h2>Contacto</h2>
+      <hr>
+      <form action="">
+        <div class="form-group">
+          <label name='email'>Email:</label>
+          <input type="text" name="email" value="" class="form-control">
+        </div>
+        <div class="form-group">
+          <label name='encabezado'>Encabezado:</label>
+          <input type="text" name="encabezado" value="" class="form-control">
+        </div>
+        <div class="form-group">
+          <label name='mensaje'>Mensaje:</label>
+          <textarea name="mensaje" class="form-control"> Escriba aqui su mensaje...</textarea>
+        </div>
+        <input type="submit" name="" value="Enviar" class="btn btn-success">
+      </form>
       <a target="_blank"class="btn btn-social-icon btn-twitter" href="http://twitter.com">
       <span class="fa fa-twitter fa-5x"></span></a>
       <a target="_blank"class="btn btn-social-icon btn-facebook" href="http://facebook.com">
