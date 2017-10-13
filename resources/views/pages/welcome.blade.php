@@ -12,7 +12,7 @@
 
        <span class="border">Tri-Podes</span>
      </div>
-
+     
    </div>
     <section class="section section-dark" id="about">
       <h2>About Us</h2>
@@ -28,6 +28,7 @@
     </div>
     <section class="section section-light" id="muestra">
       <h2>Muestra</h2>
+
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea molestias debitis ipsam aliquid nulla in nesciunt vel nisi nihil similique saepe, nam om
         nis magnam necessitatibus voluptatum veritatis! Non quae optio fuga provident magni neque similique, qui nihil laborum sapiente minus ex itaque qu
         idem rerum fugiat blanditiis soluta ut, iure voluptas beatae obcaecati. Minus dicta sint, voluptatibus molestias facilis vitae perferendis eaque
