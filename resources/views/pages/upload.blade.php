@@ -2,8 +2,8 @@
 
 @section('content')
 
-{!! Form::open(array('route'=>'gallery.store', 'files'=>'true')) !!}
-{{Form::file('image')}}
+{!! Form::open(array('route'=>'gallery.store', 'files'=>'true','enctype'=>'multipart/form-data')) !!}
+{{Form::file('image[]',['multiple'=>'multiple'])}}
 {{Form::submit('upload file')}}
 {!! Form::close() !!}
 

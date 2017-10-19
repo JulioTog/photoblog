@@ -35,13 +35,15 @@ class ImagesController extends Controller
      */
     public function store(Request $request)
     {
-      $imagen = new Image;
-      $file = $request->file('image');
-      $name = $file->getClientOriginalName();
-      $imagen->nombre = $name;
-      $path = $file->storeAs('fotos',$name);
-      $imagen->img = $path;
-      $imagen->save();
+      foreach ($request['image'] as $foto) {
+        $imagen = new Image;
+        $name = $foto->getClientOriginalName();
+        $imagen->nombre = $name;
+        $path = $foto->storeAs('fotos',$name);
+        $imagen->img = $path;
+        $imagen->save();
+      }
+
         return back();
     }
 
