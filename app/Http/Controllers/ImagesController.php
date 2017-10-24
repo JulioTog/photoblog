@@ -35,6 +35,7 @@ class ImagesController extends Controller
      */
     public function store(Request $request)
     {
+      if ($request[0]!='') {
       foreach ($request['image'] as $foto) {
         $imagen = new Image;
         $name = $foto->getClientOriginalName();
@@ -42,8 +43,8 @@ class ImagesController extends Controller
         $path = $foto->storeAs('fotos',$name);
         $imagen->img = $path;
         $imagen->save();
-      }
-
+          }
+        }
         return back();
     }
 
