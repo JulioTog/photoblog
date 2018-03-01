@@ -14,7 +14,8 @@ class ImagesController extends Controller
      */
     public function index()
     {
-        //
+        $imagenes = Image::all();
+        return view('pages.galeria')->withImagenes($imagenes);
     }
 
     /**
@@ -35,16 +36,16 @@ class ImagesController extends Controller
      */
     public function store(Request $request)
     {
-      if ($request[0]!='') {
+
       foreach ($request['image'] as $foto) {
         $imagen = new Image;
         $name = $foto->getClientOriginalName();
         $imagen->nombre = $name;
-        $path = $foto->storeAs('fotos',$name);
+        $path = $foto->storeAs('public/fotos',$name);
         $imagen->img = $path;
         $imagen->save();
           }
-        }
+
         return back();
     }
 
