@@ -12,7 +12,7 @@ yarn-error.log
 .env
 .editorconfig
 app/Http/Middleware/CheckForMaintenanceMode.php
-config/logging.php
 config/hashing.php
 resources/assets/js/components/ExampleComponent.vue
+config/logging.php
 resources/views/welcome.blade.php
