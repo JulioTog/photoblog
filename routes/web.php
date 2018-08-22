@@ -12,8 +12,7 @@
 */
 
 Route::get('/', 'PagesController@getIndex');
-
-Route::get('gallery', 'PagesController@getGallery');
+Route::resource('gallery', 'ImagesController');
 
 //Route::get('about', PageController.about){
 //  return view();
